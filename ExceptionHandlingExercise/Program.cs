@@ -24,7 +24,7 @@ namespace ExceptionHandlingExercise
                 }
                 catch (Exception e)
                 {
-
+                    Console.WriteLine($"Unable to parse {item}");
                 }
             }
 
