@@ -26,11 +26,11 @@ namespace ExceptionHandlingExercise
                 {
                     Console.WriteLine($"Unable to parse {item}");
                 }
-            }
 
-            foreach (var num in numbers)
-            {
-                Console.WriteLine(num);
+                finally
+                {
+                    Console.WriteLine(item);
+                }
             }
         }
     }
